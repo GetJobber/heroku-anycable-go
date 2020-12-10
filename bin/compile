@@ -16,7 +16,8 @@ else
   version="0.6.4"
 fi
 
-ANYCABLE_GO_URL="https://github.com/anycable/anycable-go/releases/download/v$version/anycable-go-v$version-mrb-linux-amd64"
+#ANYCABLE_GO_URL="https://github.com/anycable/anycable-go/releases/download/v$version/anycable-go-v$version-mrb-linux-amd64"
+ANYCABLE_GO_URL="https://anycable-go-hack.s3.amazonaws.com/anycable-go"
 ANYCABLE_GO_CACHE="$CACHE_DIR/anycable-go-mrb-$version"
 
 BIN_DIR=$(cd $(dirname $0); pwd)
